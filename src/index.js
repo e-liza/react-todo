@@ -1,17 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Search from './components/search';
-import List from './components/list';
-import Header from './components/header';
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Search />
-      <List />
-    </div>
-  );
-};
+import './index.css';
+import App from './components/app';
 
 ReactDOM.render(<App />, document.getElementById('root'));
